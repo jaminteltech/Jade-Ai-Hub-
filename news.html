@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jade Ai Hub — News</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <img src="images/logo.png" alt="Jade Ai Hub logo" class="logo">
+      <h1>Jade Ai Hub</h1>
+      <p class="tagline">News & Updates</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section>
+      <article>
+        <h2>2026-02-15 — Site Launched</h2>
+        <p>Welcome to the new Jade Ai Hub website. We’ll post product updates, research notes, and company news here.</p>
+      </article>
+
+      <article>
+        <h2>2026-02-10 — New Service: Custom Model Deployment</h2>
+        <p>We now offer end-to-end model deployment services to help customers productionize their ML solutions.</p>
+      </article>
+
+      <article>
+        <h2>2026-01-28 — Research Release: Model Efficiency Tips</h2>
+        <p>Published a short guide on improving inference efficiency for transformer-based models.</p>
+      </article>
+    </section>
+
+    <p><a href="index.html">← Back to Home</a></p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <small>&copy; <span id="year"></span> Jade Ai Hub</small>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
